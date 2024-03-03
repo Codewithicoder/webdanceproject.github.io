@@ -1,0 +1,68 @@
+//- index.pug
+doctype html
+html
+  head
+    title Sandeep's Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+         ul 
+             div#logo
+                img(src="static/logo5.png")
+
+             li #[a(href="/") Home]
+             li #[a(href="/")  About ]
+             li #[a(href="/") Services]
+             li #[a(href="/") Contact Us]
+
+    section#introSection 
+            div  Welcome to Sandeep's Dance Academy!!
+            div.small  Never give-up !
+
+    section#MissionSection 
+           h2  Our Mission
+           div.card
+               h3 Break-Dance.
+               div.card-box
+                  div.card-img 
+                     img(src="static/1.jpg")
+                  
+                  div.card-content 
+                     p Break dancing is largely improvisational, made  powermoves,genre with influences from older  downrock, and toprocke.
+           div.card
+               h3 Street Dance
+                div.card-box
+                  div.card-img 
+                     img(src="static/2.jpg")
+                  
+                  div.card-content 
+                     p Street dance is an umbrella term for a large number of social dance styles such as: breakdancing etcgenre with influences from older.
+           div.card
+               h3 Hip Hop Dance.
+                div.card-box
+                  div.card-img 
+                     img(src="static/3.jpg")
+                  
+                  div.card-content 
+                     p Hip-hop dance is a fusion dance genre with influences from older street. These include uprock, breaking, and the funk styles.
+           div.card
+               h3 Zumba Dance.
+                div.card-box
+                  div.card-img 
+                     img(src="static/4.jpg")
+                  
+                  div.card-content 
+                     p Zumba is a Latin-inspired dance workout that instructorst primarily an aerobic workoutgenre with influences from older
+    section#sponserSection 
+           h2  Our Sponsers
+           div#sponser 
+               img(src="/static/11.jpg.png", alt="sponser imeages", class="spimeage")
+               img(src="/static/22.jpg.png", alt="sponser imeages", class="spimeage")
+               img(src="/static/33.jpg.png", alt="sponser imeages", class="spimeage") 
+               img(src="/static/44.jpg.png", alt="sponser imeages", class="spimeage")   
+
+    footer#footer 
+           | Copyright©2024 SandeepDanceAcademy.com | All right reserved 
+    script
+      include ../static/script.js

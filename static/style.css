@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: -9px 37px;
+}
+
+#logo img {
+    height: 59px;
+    filter: invert(1);
+    border-radius: 30px;
+}
+
+#navbar {
+    background-color: #ca1717;
+    padding: 12px 0px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 6px 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#introSection {
+
+    height: 300px;
+    background-color: rgb(173, 149, 149);
+    background: center / cover no-repeat url("/static/bg4.jpg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+
+
+}
+
+#introSection div.small {
+    font-size: 22px;
+}
+
+
+#MissionSection {
+    height: 300px;
+    margin: auto;
+    width: 87%;
+}
+
+#MissionSection h2 {
+    text-align: center;
+    /* margin-top: 5px; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 250px;
+    width: 295px;
+    margin-top: 5px;
+    /* margin-left: 57px; */
+    margin-right: 35px;
+}
+
+.card h3 {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.card-box {
+    display: flex;
+    margin-top: 33px;
+    /* align-items: center; */
+
+    /* justify-content: space-between; */
+    */
+}
+
+.card-img {
+    height: 124px;
+    margin-top: 4px;
+}
+
+.card-img img {
+    height: inherit;
+
+
+}
+
+#sponserSection {
+    background-color: rgb(249 245 239);
+    height: 220px;
+    margin-top: 2px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 13px;
+}
+
+#sponserSection h2 {
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#sponser {
+    height: 120px;
+    /* width: 1500px; */
+    margin: auto;
+}
+
+.spimeage {
+    border-radius: 15px;
+    height: 95%;
+    margin: 27px;
+}
+
+#footer {
+    display: flex;
+    color: white;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-size: 15px;
+    font-family: 'Salsa', cursive;
+}
